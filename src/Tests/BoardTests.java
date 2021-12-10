@@ -17,7 +17,6 @@ public class BoardTests {
             for (int j = 0; j < randomPiece.getPieceWidth(); j++) {
                 assert boardArray[i][j] == pieceArray[i][j] : "Failed to create a Piece";
             }
-            System.out.println("");
         }
     }
 
